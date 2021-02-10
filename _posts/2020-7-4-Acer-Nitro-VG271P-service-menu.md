@@ -1,7 +1,7 @@
 ---
 title: How to get into the service menu Acer Nitro VG271P
 date: 2020-07-04
-tags: [acer, vg271p, monitor, menu]
+categories: [acer, vg271p, monitor, menu]
 ---
 
 1. turn off the monitor (by pressing button 1)

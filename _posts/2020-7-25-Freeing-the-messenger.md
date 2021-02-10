@@ -1,7 +1,7 @@
 ---
 title: Освобождение месенджера?
 date: 2020-07-25
-tags: [генпрокуратура, telegram, фсб, роскомнадзор]
+categories: [генпрокуратура, telegram, фсб, роскомнадзор]
 ---
 
 `Это копия ныне удалённого поста https://valerykomarov.blogspot.com/2020/06/blog-post_19.html`
