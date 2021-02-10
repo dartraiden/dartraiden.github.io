@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to start Windows Twitch app minimized
-tags: [twitch, autohotkey, ahk, script]
+categories: [twitch, autohotkey, ahk, script]
 ---
 
 Simple AutoHotkey script:
