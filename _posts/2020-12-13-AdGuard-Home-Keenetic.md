@@ -35,10 +35,10 @@ system configuration save
 
 # Решение популярных проблем
 ## Не обновляются подписки по HTTPS
-Установите пакет `ca-certificates` (или `ca-bundle`):
+При установке AdGuard Home должен был автоматически установиться пакет `ca-bundle`, если он не установлен, то установите его (либо можно установить пакет `ca-certificates`):
 ```
 opkg update
-opkg install ca-certificates
+opkg install ca-bundle
 ```
 
 ## Использование с VPN Antizapret
