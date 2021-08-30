@@ -1,0 +1,80 @@
+- v1.42.48 (Oct 15 2010) - Fixed that Virtual HDD is not removed properly from v1.42.47
+
+- v1.42.47 (Oct 12 2010) - Fixed that HDD processing becomes slow, when using HDD not support temperature and health info.
+
+- v1.42.46 (Oct 07 2010) - Modified that manual power down becomes available, when error message is displayed.
+                         - Modified what broken screen or CD is not recognized in some specific PC boards.
+
+- v1.42.44 (Sep 10 2010) - UnSupportedFS => 1st Partition : change to XX.
+
+- v1.42.43               - Improve Write Protection function.
+
+- v1.42.41 (Aug 30 2010) - Almost same as v1.41.32.
+
+- v1.41.35 (Aug 17 2010) - Support 2511 main board.
+                         - Set Jog Key Access time as 200mSec.
+
+- v1.41.32 (Jul 27 2010) - Recognized as DVD in Nero burning and DVD Decryptor.
+                         - When plugging with pressing, no need to wait www.i-odd.com display.
+
+- v1.41.28 (Jul 09 2010) - Enter CD Mode after selection of Virtual HDD.
+                         - If HDD is changed or has error, then virtual CD and HDD information is reset.
+
+- v1.41.27 (Jul 07 2010) - Display Virtual HDD name.
+
+- v1.41.26 (Jul 01 2010) - Fix bug for Power save function.
+
+- v1.41.25 (Jun 18 2010) - Delay reboot or mode change while writing in HDD.
+                         - Virtual HDD is available in all the modes (Real HDD is read-only).
+
+- v1.41.24 (Jun 17 2010) - Remove option (Plugging with pressing Jog) Solve malfunction.
+
+- v1.41.23 (May 27 2010) - Disk Utility in Mac, HDD capacity is exactly shown.
+
+- v1.41.22 (May 25 2010) - When plugging with pressing Jog button, all the option data are reset.
+
+- v1.41.16 (Apr 20 2010) - Fix not to be formatted in .Hide 1st Partition mode.
+                         - Fix bug for Volume name in Virtual HDD mode.
+
+- v1.41.15 (Apr 16 2010) - Add Virtual FDD function.
+
+- v1.41.00 (Mar 24 2010) - Support NTFS Write Protect.
+
+- v1.40.10 (Oct 16 2009) - Fixed error when OS reboot.
+                         - Can change mode at 'begin of list'.
+                         - Can enter information mode at 'end of list'.
+
+- v1.40.09 (Oct 07 2009) - Maintain cd-only-mode or hdd-only-mode until rebooting iodd with press-key.
+                         - Enter suspended mode after usb safe remove.(win-xp, mac-osx, except vista).
+
+- v1.40.07 (Sep 30 2009) - USB speed up 20% more than v1.38 - v 1.40.06.
+
+- v1.40.06 (Sep 21 2009) - Display BD-ROM drive in windows explorer.
+
+- v1.40.05 (Sep 17 2009) - Support Blu-Ray.
+
+- v1.39.28 (Jan 22 2010) - Fixed an exFAT bug.
+                         - Use _iodd.ini (located at _iso directory) for options.
+                         - If _iodd.ini does not exist then the following functions are disabled.
+
+- v1.38.08 (Sep 02 2009) - Fix Fragmented files bug.
+
+- v1.38    (Aug 28 2009) - Support Unicode.
+                         - Power down led bright control.
+
+- v1.34    (Jul 20 2009) - Use region code.
+                         - CD only mode, HDD only mode.
+                         - If long-press-up key then rescan _iso directory.
+
+- v1.28    (Jun 02 2009) - Display 2 line file name.
+                         - Auto power save (10 minutes).
+                         - Increase space's width.
+                         - Add file name prefix.
+                         - Change icon's bitmap.
+
+- v1.26    (May 20 2009) - Support long file name.
+
+- v1.24    (Apr 22 2009) - Fix file listing error.
+                         - Fix loaded cd size.
+
+- v1.2     (Apr 09 2009) - Add boot function in Mac.
