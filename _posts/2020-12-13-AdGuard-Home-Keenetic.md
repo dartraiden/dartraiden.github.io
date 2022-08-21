@@ -58,13 +58,13 @@ opkg install ca-bundle
 /opt/etc/init.d/S99adguardhome stop
 ```
 
-2) включите DNS-сервер, встроенный в прошивку Keenetic. Подключитесь к [CLI](https://help.keenetic.com/hc/ru/articles/213965889-Интерфейс-командной-строки-CLI-интернет-центра) (не путайте с SSH-сервером из Entware, который на порту 222):
+2) удалите AdGuard Home:
+```
+opkg remove adguardhome-go
+```
+
+3) включите DNS-сервер, встроенный в прошивку Keenetic. Подключитесь к [CLI](https://help.keenetic.com/hc/ru/articles/213965889-Интерфейс-командной-строки-CLI-интернет-центра) (не путайте с SSH-сервером из Entware, который на порту 222):
 ```
 no opkg dns-override
 system configuration save
-```
-
-3) удалите AdGuard Home:
-```
-opkg remove adguardhome-go
 ```
