@@ -13,5 +13,4 @@ categories: [acer, vg271p, monitor, menu]
 
 You can use the joystick to navigate the service menu.
 
-
 ![Buttons layout]({{ site.baseurl }}/images/posts/2020-7-4/buttons.jpg)
