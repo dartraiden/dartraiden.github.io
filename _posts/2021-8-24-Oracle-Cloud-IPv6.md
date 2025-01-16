@@ -6,17 +6,18 @@ categories: [oracle cloud, ipv6]
 
 It is assumed that you have already created an instance.
 
-1) Networking → Virtual Cloud Networks → \<network_name\> → CIDR Blocks/Prefixes → Add CIDR Block/IPv6 Prefix → Assign an Oracle allocated IPv6 /64 prefix → Add CIDR Blocks/Prefixes
+1) Networking → Virtual Cloud Networks → \<network_name\> → CIDR Blocks/Prefixes → Add CIDR Block/IPv6 Prefix → Assign an Oracle allocated IPv6 /56 prefix → Add CIDR Blocks/Prefixes
 
-2) Networking → Virtual Cloud Networks → \<network_name\> → Subnets → "..." right of the \<subnet_name\> → Edit → Assign an Oracle allocated IPv6 /64 prefix → enter any hexadecimal number between 00—FF (e.g. `7E`) → Save changes
+2) Networking → Virtual Cloud Networks → \<network_name\> → Subnets → \<subnet_name\> → IPv6 Prefixes → Add IPv6 Prefix → Assign an Oracle allocated IPv6 /64 prefix → enter any hexadecimal number between 00—FF (e.g. `7E`) → Add IPv6 Prefix
 
-3) Networking → Virtual Cloud Networks → \<network_name\> → Route Tables → Default Route Table for \<network_name\> → Add Route Rules  
+3) Networking → Virtual Cloud Networks → \<network_name\> → Route Tables → Default Route Table for \<network_name\> → Route Rules → Add Route Rules  
 Protocol Version: `IPv6`  
 Target Type: `Internet Gateway`  
 Destination CIDR Block: `::/0`  
 Target Internet Gateway: `Internet Gateway <network_name>`
 
 4) Networking → Virtual Cloud Networks → \<network_name\> → Security Lists → Default Security List for \<network_name\> → Egress Rules → Add Egress Rules  
+Destination Type: `CIDR`  
 Destination CIDR: `::/0`  
 IP Protocol: `All Protocols`
 
